@@ -7,16 +7,15 @@ export default {
 				transparent: 'transparent',
 				current: 'currentColor',
 				white: '#ffffff',
+				black:"#222222",
 				primary: {
 					DEFAULT: '#55588B',
-					90: '#666CFF',
-					80: '#2A7AE9',
+					90: '#AAA9BC'
 				},
 				secondary: {
-					DEFAULT: '#000C1C',
-					90: '#2F3640',
-					80: '#505050',
-				},			
+					DEFAULT: '##464555',
+					90: '#767587'
+				}
 			},
 			fontSize: {
 				xxs: '0.75rem /*12px*/', //12px
