@@ -100,7 +100,7 @@
 <!-- 
 <footer class="text-xs px-4 xl:px-18 py-2 max-w-[1920px] mx-auto bg-white text-secondary">
 	<div class="flex flex-col md:flex-row justify-center md:justify-between items-center">
-		<span class="text-center"> © Dhillon Bus. All Rights Reserved. </span>
+		<span class="text-center"> © Tata Bus. All Rights Reserved. </span>
 	
 	</div>
 </footer> -->
@@ -123,7 +123,7 @@
 			>
 				<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
 			</svg>
-			<span class="ml-3 text-xl">Dhillon Bus</span>
+			<span class="ml-3 text-xl">Tata Bus</span>
 		</a>
 		<p
 			class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"

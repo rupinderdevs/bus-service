@@ -48,7 +48,7 @@
 <nav class="sticky w-full top-0 z-50 bg-white shadow-md">
 	<div bind:this={divRef} class="py-4 flex justify-between items-center px-6 lg:px-20 gap-4 z-20">
 		<div>
-			<a href="/" class="text-xl font-semibold tracking-wide uppercase">Dhillon Bus</a>
+			<a href="/" class="text-xl font-semibold tracking-wide uppercase">Tata Bus</a>
 		</div>
 
 		<ul class="items-center gap-[30px] hidden lg:flex flex-wrap justify-end">

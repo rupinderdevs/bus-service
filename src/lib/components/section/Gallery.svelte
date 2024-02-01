@@ -8,7 +8,7 @@
 <section class="text-black px-4 xl:px-20">
 	<h2 class="text-black text-xl lg:text-5l text-center">Featured Buses and Coach Models.</h2>
 	<p class="text-xs lg:text-m w-full md:w-9/12 mx-auto text-center">
-		Dhillon Bus takes pride in being the top choice for both tourists and meticulous journey planners. Our buses are meticulously crafted, incorporating cutting-edge technology to provide the highest level of comfort to our passengers. Choose us for a journey that seamlessly blends strength, reliability, and modern comfort.
+		Tata Bus takes pride in being the top choice for both tourists and meticulous journey planners. Our buses are meticulously crafted, incorporating cutting-edge technology to provide the highest level of comfort to our passengers. Choose us for a journey that seamlessly blends strength, reliability, and modern comfort.
 	</p>
 	<div class="container px-4 py-24 mx-auto flex flex-wrap">
 		<div class="flex flex-wrap md:-m-2 -m-1">
