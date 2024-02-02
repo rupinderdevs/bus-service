@@ -13,7 +13,7 @@ export default {
 					90: '#AAA9BC'
 				},
 				secondary: {
-					DEFAULT: '##464555',
+					DEFAULT: '#464555',
 					90: '#767587'
 				}
 			},

@@ -1,3 +1,1 @@
-export const WHATSAPP = '';
-export const FACEBOOK = '';
-
+export const INSTAGRAM = 'https://www.instagram.com/dhillonbus42/';
