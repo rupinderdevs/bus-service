@@ -27,8 +27,8 @@
 			href: '/services'
 		},
 		{
-			name: 'Contact',
-			href: '/contact'
+			name: 'Gallery',
+			href: '/gallery'
 		},
 		{
 			name: 'Contact',

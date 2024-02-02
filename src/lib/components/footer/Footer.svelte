@@ -49,9 +49,8 @@
 		<div class="md:col-span-2 lg:col-span-1 lg:w-3/12">
 			<!-- <img class="pb-4" src={LogoWhite} alt="ElisOps" /> -->
 			<span class="text-m"
-				>Visitor are hereby informed that their information submitted on the website may be shared
-				with insurances. Product information is authentic and solely bases on the information
-				received from the insurers.</span
+				>More than four 5+ of experience to ensure safety and comfort for all its customers.
+				Contact us for all your bus rental needs.</span
 			>
 			<!-- <div class="flex gap-4 md:gap-2 py-4">
 				{#each socialIcon as { name, href }}
@@ -128,7 +127,7 @@
 		<p
 			class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
 		>
-		All Rights Reserved.	© 2023 dhillonbus —
+			All Rights Reserved. © 2023 dhillonbus —
 			<a
 				href="https://twitter.com/knyttneve"
 				class="text-gray-600 ml-1"

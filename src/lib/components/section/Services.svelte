@@ -1,8 +1,12 @@
 <script lang="ts">
 	import Card from '../ui/Card.svelte';
 
-	import bus1 from '../../images/bus1.jpg';
-	import bus2 from '../../images/bus2.jpg';
+	// import bus14 from '../../images/buses/dhillon-bus14.jpg';
+	import bus11 from '../../images/buses/dhillon-bus11.jpg';
+	// import bus13 from '../../images/buses/dhillon-bus13.jpg';
+	import bus7 from '../../images/buses/dhillon-bus7.jpg';
+	import bus15 from '../../images/buses/dhillon-bus15.jpg';
+	import bus4 from '../../images/buses/dhillon-bus4.jpg';
 
 	let cards: {
 		category: string;
@@ -14,25 +18,25 @@
 			category: 'Category',
 			title: 'Sleeper Coach',
 			description: 'Best in Class Features and Pleasing Interiors.',
-			imageSrc: bus1
+			imageSrc: bus15
 		},
 		{
 			category: 'Category',
 			title: 'Luxuary Buses',
 			description: 'Best in Class Features and Pleasing Interiors.',
-			imageSrc: bus2
+			imageSrc: bus7
 		},
 		{
 			category: 'Category',
 			title: 'Tourist Buses',
 			description: 'Best in Class Features and Pleasing Interiors.',
-			imageSrc: bus1
+			imageSrc: bus11
 		},
 		{
 			category: 'Category',
 			title: 'Deluxe Coach',
 			description: 'Best in Class Features and Pleasing Interiors.',
-			imageSrc: bus2
+			imageSrc: bus4
 		}
 	];
 </script>
