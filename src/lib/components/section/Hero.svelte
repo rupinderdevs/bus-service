@@ -1,28 +1,32 @@
 <script>
+	import { goto } from '$app/navigation';
+
 	// You can add logic or props if needed
 	import bus2 from '../../images/buses/dhillon-bus14.jpg';
+	import Button from '../ui/Button.svelte';
+
+	const onClick = () => {
+		goto('/contact');
+	};
 </script>
 
 <section class="text-black">
-	<div class="container mx-auto flex px-4 py-4 lg:py-24 md:flex-row flex-col items-center">
+	<div class="container mx-auto flex py-4 lg:py-24 flex-col-reverse md:flex-row items-center">
 		<div
-			class="lg:flex-grow md:w-1/2 pr-4 gap-10 flex flex-col md:items-start md:text-left items-center text-center"
+			class="lg:flex-grow md:w-1/2 pr-4 gap-4 lg:gap-10 flex flex-col md:items-start md:text-left items-center text-center"
 		>
-			<h1 class="lg:text-4xl leading-10 text-3xl font-medium">
-				<span class="text-primary font-bold">Tata Bus Service</span> - Travel Safe with Us. Your safety
-				Our Priority
+			<h1 class="lg:text-4xl xl:text-5xl text-xl md:text-3xl font-semibold">
+				Welcome to <span class="text-primary font-bold">Dhillon Bus</span> - <br /> Your Journey Begins
+				Here!
 			</h1>
 			<p class="text-xs md:text-s leading-relaxed">
-				Tata Bus stands as a prominent force in the bus rental industry in Punjab. Our commitment to
-				enhancing the travel experience is evident through the continuous upgrades to our extensive
-				fleet, ensuring our customers enjoy a journey marked by comfort and convenience.
+				Embark on a seamless travel experience with Dhillon Bus, where comfort, reliability, and
+				convenience converge. Explore our world-class bus services and make your journey memorable.
+				Book your Tour now and let us take you to your destination in style.
 			</p>
-			<p class="text-xs md:text-s leading-relaxed">
-				With a rich legacy spanning over four decades, Dhillon Motors exemplifies a steadfast
-				dedication to delivering affordable, reliable, and secure transportation solutions.
-			</p>
+			<Button text="Contact Us" classes="my-2" on:click={onClick} />
 		</div>
-		<div class="lg:max-w-xl lg:w-full md:w-1/2 ">
+		<div class="lg:max-w-xl lg:w-full md:w-1/2 py-2">
 			<img class="object-cover object-center rounded" alt="hero" src={bus2} />
 		</div>
 	</div>

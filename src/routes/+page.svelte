@@ -8,8 +8,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Tata Bus" />
+	<title>Dhillon Bus - Travel Safe with us</title>
+	<meta name="description" content="Dhillon Bus in your service" />
 </svelte:head>
 
 <section class="px-4 lg:px-20">

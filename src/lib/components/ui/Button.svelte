@@ -21,7 +21,7 @@
 
 <style>
 	button {
-		@apply flex h-fit items-center gap-3 rounded-full border border-transparent px-4 py-2 opacity-90 transition-all duration-500 hover:opacity-100 disabled:opacity-60;
+		@apply flex h-fit items-center gap-3 rounded-md border border-transparent px-4 py-2 opacity-90 transition-all duration-500 hover:opacity-100 disabled:opacity-60;
 	}
 	.primary {
 		@apply bg-primary text-white opacity-90 hover:opacity-60;

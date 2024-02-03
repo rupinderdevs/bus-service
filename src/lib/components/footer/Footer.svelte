@@ -1,43 +1,58 @@
 <script lang="ts">
-	// import { WHATSAPP } from '$lib/data';
+	import { INSTAGRAM } from '$lib/data';
 	// import { FACEBOOK } from '$lib/data';
 
 	// import Button from "./ui/Button.svelte";
-	// import SvgIcon from '../ui/SvgIcon.svelte';
+	import SvgIcon from '../ui/SvgIcon.svelte';
+	import LOGO from '../../images/dhillon-bus-logo.png';
 
-	const policyLinks = [
+	const quickLinks = [
 		{
 			name: 'Privacy Policy',
 			href: '/'
+		},
+		{
+			name: 'About Us',
+			href: '/about'
+		},
+		{
+			name: 'Gallery',
+			href: '/gallery'
 		}
 	];
 	const generalLinks = [
 		{
 			name: 'About Us',
 			href: '/about'
-		}
-	];
-	// const socialIcon = [
-	// 	{
-	// 		name: 'Whatsapp',
-	// 		href: WHATSAPP
-	// 	},
-	// 	{
-	// 		name: 'Facebook',
-	// 		href: FACEBOOK
-	// 	},
-	// ];
-
-	const contactInformation = [
-		{ value: 'info@dhullon.cm', icon: 'Email' },
-		{ value: '+91787333', icon: 'Phone' },
-		{
-			value: 'Registration Code No. IRDAI/DB877/202',
-			icon: 'Note'
 		},
 		{
-			value: 'Registration No. 804',
-			icon: 'Note'
+			name: 'Contact',
+			href: '/contact'
+		},
+		{
+			name: 'Gallery',
+			href: '/gallery'
+		}
+	];
+	const socialIcon = [
+		{
+			name: 'Whatsapp',
+			href: INSTAGRAM
+		},
+		{
+			name: 'Facebook',
+			href: INSTAGRAM
+		}
+	];
+
+	const contactInformation = [
+		{ value: 'damandhillon521@gmail.com', icon: 'Email' },
+		{ value: '+91 9876856295', icon: 'Phone' },
+		{ value: '+91 9915494639', icon: 'Phone' },
+		{ value: '+91 7696756295', icon: 'Phone' },
+		{
+			value: 'Dhillon Bus Headquarters. Patran, Punjab',
+			icon: 'Location'
 		}
 	];
 </script>
@@ -47,23 +62,26 @@
 		class="lg:flex grid md:grid-cols-2 w-full lg:grid-cols-4 gap-6 p-6 xl:px-20 lg:px-12 md:px-6 px-4 lg:py-14"
 	>
 		<div class="md:col-span-2 lg:col-span-1 lg:w-3/12">
-			<!-- <img class="pb-4" src={LogoWhite} alt="ElisOps" /> -->
-			<span class="text-m"
-				>More than four 5+ of experience to ensure safety and comfort for all its customers.
-				Contact us for all your bus rental needs.</span
+			<img class="pb-4" src={LOGO} alt="ElisOps" />
+			<span
+				>Stay connected with us on social media for the latest updates, travel tips, and exclusive
+				offers.</span
 			>
-			<!-- <div class="flex gap-4 md:gap-2 py-4">
+			<div class="flex gap-4 md:gap-2 py-4">
 				{#each socialIcon as { name, href }}
-					<a {href} target="_blank" class="group ">
-						<SvgIcon {name} class="w-7 transition-all ease-in-out duration-500 group-hover:scale-1" />
+					<a {href} target="_blank" class="group">
+						<SvgIcon
+							{name}
+							class="w-7 transition-all ease-in-out duration-500 group-hover:scale-1"
+						/>
 					</a>
 				{/each}
-			</div> -->
+			</div>
 		</div>
 		<div class="lg:w-2/12">
-			<h4 class="text-base md:text-2xl font-semibold pb-3">Links</h4>
+			<h4 class="text-base md:text-2xl font-semibold pb-3">Quick Links</h4>
 			<ul class="space-y-3">
-				{#each policyLinks as { name, href }}
+				{#each quickLinks as { name, href }}
 					<li><a {href}>{name}</a></li>
 				{/each}
 			</ul>
@@ -83,8 +101,8 @@
 				{#each contactInformation as { value, icon }}
 					<li class="flex items-start gap-4">
 						<div class="w-6">
-							<!-- <SvgIcon name={icon} class="w-6 h-6" /> -->
-							<span>1</span>
+							<SvgIcon name={icon} class="w-6 h-6 stroke-white " />
+							<!-- <span>1</span> -->
 						</div>
 
 						<div>
@@ -96,43 +114,20 @@
 		</div>
 	</div>
 </footer>
-<!-- 
-<footer class="text-xs px-4 xl:px-18 py-2 max-w-[1920px] mx-auto bg-white text-secondary">
-	<div class="flex flex-col md:flex-row justify-center md:justify-between items-center">
-		<span class="text-center"> © Tata Bus. All Rights Reserved. </span>
-	
-	</div>
-</footer> -->
 
 <footer class="">
-	<div class="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
-		<a
-			href="/"
-			class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
-		>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				stroke="currentColor"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-				stroke-width="2"
-				class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-				viewBox="0 0 24 24"
-			>
-				<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-			</svg>
-			<span class="ml-3 text-xl">Tata Bus</span>
+	<div class="container px-4 lg:px-20 py-2 mx-auto flex items-center sm:flex-row flex-col">
+		<a href="/" class="flex title-font font-medium items-center md:justify-start justify-center">
+			<span>© 2024 Dhillon Bus</span>
 		</a>
 		<p
-			class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+			class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-primary-90 sm:py-2 sm:mt-0 mt-1"
 		>
-			All Rights Reserved. © 2023 dhillonbus —
-			<a
+			All rights reserved - Designed by <a
 				href="https://twitter.com/knyttneve"
-				class="text-gray-600 ml-1"
+				class="text-orange ml-1"
 				rel="noopener noreferrer"
-				target="_blank">@rupinder</a
+				target="_blank">Rupinder Singh</a
 			>
 		</p>
 		<span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

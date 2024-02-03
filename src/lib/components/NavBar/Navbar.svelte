@@ -4,7 +4,7 @@
 	import { page } from '$app/stores';
 
 	/** internal deps */
-	// import logo from '../../images/logo.png';
+	import logo from '../../images/dhillon-bus-logo.png';
 	import Popper from '../ui/Popper.svelte';
 
 	/** props */
@@ -18,6 +18,10 @@
 	// let dark = false;
 
 	const navLinks = [
+		{
+			name: 'Home',
+			href: '/'
+		},
 		{
 			name: 'About Us',
 			href: '/about'
@@ -35,7 +39,7 @@
 			href: '/contact'
 		}
 	];
-	const genericHamburgerLine = `h-1 w-8 my-1 rounded-full bg-black transition ease transform duration-300`;
+	const genericHamburgerLine = `h-1 w-8 my-1 rounded-full bg-primary transition ease transform duration-300`;
 
 	/** funcs */
 	const setIsOpen = () => (isOpen = !isOpen);
@@ -48,7 +52,9 @@
 <nav class="sticky w-full top-0 z-50 bg-white shadow-md">
 	<div bind:this={divRef} class="py-4 flex justify-between items-center px-6 lg:px-20 gap-4 z-20">
 		<div>
-			<a href="/" class="text-xl font-semibold tracking-wide uppercase">Tata Bus</a>
+			<a href="/" class="w-6/12 text-xl font-semibold tracking-wide uppercase">
+				<img src={logo} alt="Dhillon Bus" class="w-6/12" />
+			</a>
 		</div>
 
 		<ul class="items-center gap-[30px] hidden lg:flex flex-wrap justify-end">

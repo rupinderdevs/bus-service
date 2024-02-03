@@ -11,13 +11,13 @@
 	import bus4 from '../../images/buses/dhillon-bus4.jpg';
 </script>
 
-<section class="text-black px-4 xl:px-20">
+<section class="">
 	<h2 class="text-black text-xl lg:text-5l text-center">Featured Buses and Coach Models.</h2>
-	<p class="text-xs lg:text-m w-full md:w-9/12 mx-auto text-center">
+	<!-- <p class="text-xs lg:text-m w-full md:w-9/12 mx-auto text-center">
 		Check some of the recent addition of buses in our fleet. We have all sorts of buses be it a 27
 		seater, 45 seater or 54 seater (AC/ Non AC)
-	</p>
-	<div class="container px-4 py-24 mx-auto flex flex-wrap">
+	</p> -->
+	<div class="container px-4 py-6 lg:py-24 mx-auto flex flex-wrap">
 		<div class="flex flex-wrap md:-m-2 -m-1">
 			<div class="flex flex-wrap w-full lg:w-1/2">
 				<div class="md:p-2 p-1 w-1/2">
