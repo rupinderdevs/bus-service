@@ -9,10 +9,12 @@
 	import Drivers from '../icon/Drivers.svelte';
 	import Buses from '../icon/Buses.svelte';
 	import Professionals from '../icon/Professionals.svelte';
+	import Chevron from '../icon/Chevron.svelte';
+
 	
 
 
-	export let name: 'Check' | 'Arrow' | 'Phone' | 'Location' | 'Email' | 'Experience' | 'Drivers' | 'Buses' | 'Professionals';
+	export let name: 'Check' | 'Arrow' | 'Phone' | 'Location' | 'Email' | 'Experience' | 'Drivers' | 'Buses' | 'Professionals' | 'Chevron';
 
 	const svgIconList: any = {
 		Check,
@@ -23,7 +25,8 @@
 		Experience,
 		Drivers,
 		Professionals,
-		Buses
+		Buses,
+		Chevron
 
 	};
 </script>

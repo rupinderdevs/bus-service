@@ -51,9 +51,9 @@
 
 <nav class="sticky w-full top-0 z-50 bg-white shadow-md">
 	<div bind:this={divRef} class="py-4 flex justify-between items-center px-6 lg:px-14 xl:px-18 gap-4 z-20">
-		<div class="w-5/12 xl:w-6/12">
+		<div class="w-6/12 md:5/12 xl:w-6/12">
 			<a href="/" class=" text-xl font-semibold tracking-wide uppercase">
-				<img src={logo} alt="Dhillon Bus" class="w-5/12 xl:w-6/12" />
+				<img src={logo} alt="Dhillon Bus" class="w-full xl:w-6/12" />
 			</a>
 		</div>
 

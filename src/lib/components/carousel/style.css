@@ -1,0 +1,12 @@
+.sc-carousel-dot__dot.svelte-yu7247{
+    border-radius: 0 !important;
+    height: 6px Im !important;
+    width: 6px !important;
+}
+
+
+.sc-carousel-dot__dot_active.svelte-yu7247{
+    width: 30 !important;
+    height: 6px !important;
+    background-color: var(--secondary) !important;
+}

@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+--primary:#05579B;
+--secondary:#5688D2;
+}
 * {
   margin: 0;
   padding: 0;

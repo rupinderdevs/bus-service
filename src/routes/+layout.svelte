@@ -7,15 +7,6 @@
 	import './styles.css';
 </script>
 
-<!-- <div class="app">
-	<Header />
-
-	<main>
-		<slot />
-	</main>
-
-</div> -->
-
 <Topbar />
 <Navbar />
 <main class="max-w-[1920px] mx-auto">

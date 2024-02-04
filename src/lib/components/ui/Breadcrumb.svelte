@@ -20,7 +20,7 @@
   <h2 class="text-sm md:text-4xl font-medium capitalize">{heading}</h2>
   <div class="text-l flex">
     <span class="pr-4 font-semibold">Home </span>
-    <SvgIcon name="Arrow" class="w-5 -rotate-90" />
+    <SvgIcon name="Chevron" class="w-5 -rotate-90" />
     {#each niceCrumbs as name, index}
       <span
         class="{index + 1 === niceCrumbs.length &&
