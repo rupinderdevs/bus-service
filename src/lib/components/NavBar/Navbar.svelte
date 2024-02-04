@@ -50,14 +50,14 @@
 </script>
 
 <nav class="sticky w-full top-0 z-50 bg-white shadow-md">
-	<div bind:this={divRef} class="py-4 flex justify-between items-center px-6 lg:px-20 gap-4 z-20">
-		<div>
-			<a href="/" class="w-6/12 text-xl font-semibold tracking-wide uppercase">
-				<img src={logo} alt="Dhillon Bus" class="w-6/12" />
+	<div bind:this={divRef} class="py-4 flex justify-between items-center px-6 lg:px-14 xl:px-18 gap-4 z-20">
+		<div class="w-5/12 xl:w-6/12">
+			<a href="/" class=" text-xl font-semibold tracking-wide uppercase">
+				<img src={logo} alt="Dhillon Bus" class="w-5/12 xl:w-6/12" />
 			</a>
 		</div>
 
-		<ul class="items-center gap-[30px] hidden lg:flex flex-wrap justify-end">
+		<ul class="items-center gap-6 hidden lg:flex flex-wrap justify-end">
 			{#each navLinks as { name, href }}
 				<li>
 					<a

@@ -1,6 +1,5 @@
-<script>
-  import platformCompare from "../../images/platformCompare.png";
-  import { faqData } from "$lib/data";
+<!-- <script>
+  // import { faqData } from "$lib/data";
   import TabContentItem from "../tabs/TabContentItem.svelte";
   import TabHead from "../tabs/TabHead.svelte";
   import TabHeadItem from "../tabs/TabHeadItem.svelte";
@@ -25,9 +24,7 @@
 
 <section class="p-9 flex flex-col items-center justify-center w-full">
   <h2 class="pt-9 text-xl lg:text-5xl">Frequently Asked Questions</h2>
-  <p class="font-light text-xl py-4">
-    Ask us anything, we would definitely answer!
-  </p>
+
   <TabWrapper>
     <TabHead
       divClass="flex justify-center py-2"
@@ -65,4 +62,4 @@
       </TabContentItem>
     {/each}
   </TabWrapper>
-</section>
+</section> -->

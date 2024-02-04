@@ -1,97 +1,49 @@
 <script lang="ts">
-  import Carousel from "svelte-carousel";
-  import { browser } from "$app/environment";
-  import insuredImage from "$lib/images/insuredImage.png";
-  import SvgIcon from "$lib/components/ui/SvgIcon.svelte";
-
-  let carousel: Carousel;
-
-  const partners = [
-    {
-      //   src: bajaj,
-      alt: "Bajaj",
-    },
-    {
-      //   src: careHealth,
-      alt: "Care Health",
-    },
-    {
-      //   src: cholams,
-      alt: "Cholams",
-    },
-    {
-      //   src: future,
-      alt: "Future",
-    },
-    {
-      //   src: digit,
-      alt: "Digit",
-    },
-  ];
+	import { testimonials } from '$lib/data';
+	import Carousel from '../carousel/Carousel.svelte';
 </script>
 
-<section class="py-6 md:py-8 lg:py-10 space-y-4 xl:px-18 px-4 bg-primary-light">
-  <h2 class="py-4 text-xl lg:text-5xl text-center">
-    Happily Insured @Ellisops
-  </h2>
-
-  <div>
-    {#if browser}
-      <Carousel
-        bind:this={carousel}
-        particlesToShow={1}
-        arrows={false}
-        dots={true}
-        autoplay={true}
-        infinite={true}
-        autoplayDuration={2000}
-      >
-        {#each partners as { src, alt }}
-          <div class="flex w-full">
-            <div class="">
-              <img src={insuredImage} alt="test" />
-            </div>
-            <div
-              class="w-full bg-white rounded-md p-10 flex items-center justify-center flex-col"
-            >
-              <i class="text-2xl font-light">
-                <blockquote>
-                  <span id="quoted-data">
-                    I renewed royal Sundaram car Insuance policy by following
-                    the easy steps given on
-                  </span>
-                </blockquote>
-              </i>
-              <p class="text-2xl">Arun Kumar</p>
-            </div>
-          </div>
-        {/each}
-      </Carousel>
-    {/if}
-  </div>
+<section id="testimonials" class="py-20 px-4 lg:px-14 xl:px-18">
+	<div>
+		<Carousel autoplay={true}>
+			{#each testimonials as { src, description, name }}
+				<div class="flex w-full">
+					<div class="testimonial text-center mx-6">
+						<div
+							class="pic p-3 inline-block w-28 h-28 border-4 border-secondary rounded-full overflow-hidden shadow-lg mb-4"
+						>
+							<img {src} alt="Client" class="w-full h-full object-cover" />
+						</div>
+						<p
+							class="description min-h-80 p-4 text-s bg-primary-80 rounded-2xl shadow-lg border-b-4 border-secondary mb-6"
+						>
+							{description}
+						</p>
+						<h3 class="text-xl font-semibold mb-2">
+							{name}
+						</h3>
+						<span class="block text-gray-light">Passenger</span>
+					</div>
+				</div>
+			{/each}
+		</Carousel>
+	</div>
 </section>
 
 <style>
-  blockquote {
-    border: none;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    margin-bottom: 30px;
-    quotes: "\201C" "\201D" "\2018" "\2019";
-  }
-  blockquote:before {
-    content: open-quote;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 110%;
-    color: #cbdeee;
-  }
-  blockquote:after {
-    content: close-quote;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 110%;
-    color: #cbdeee;
-    position: absolute;
-    top: 100px !important;
-  }
+	.testimonial .pic {
+		box-shadow:
+			0 7px rgba(0, 0, 0, 0.1),
+			0 5px #d9a21b;
+	}
+	.testimonial .pic img {
+		width: 100%;
+		height: auto;
+	}
+	.testimonial .description {
+		line-height: 30px;
+		box-shadow:
+			0 7px rgba(0, 0, 0, 0.1),
+			0 5px #d9a21b;
+	}
 </style>

@@ -3,8 +3,8 @@
 	import Button from '../ui/Button.svelte';
 </script>
 
-<section class="text-gray-90 relative">
-	<div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+<section class="text-gray-90 relative px-4 lg:px-14 xl:px-18">
+	<div class="container py-6 lg:py-24 mx-auto flex sm:flex-nowrap flex-wrap">
 		<div
 			class="lg:w-2/3 md:w-1/2 bg-gray-light rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
 		>
@@ -67,7 +67,7 @@
 					class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
 				></textarea>
 			</div>
-			<Button text="Submit" classes="text-center" />
+			<Button text="Submit" classes="text-center justify-center" />
 			<!-- <p class="text-xs text-gray-500 mt-3">
 				Chicharrones blog helvetica normcore iceland tousled brook viral artisan.
 			</p> -->

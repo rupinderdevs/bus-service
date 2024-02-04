@@ -10,7 +10,7 @@
 	<meta name="description" content="Dhillon Bus" />
 </svelte:head>
 
-<div class="bg-secondary py-4 text-white px-4 lg:px-20">
+<div class="bg-secondary py-4 text-white px-4 lg:px-14 xl:px-18">
 	<div class="text-xxs md:text-xs flex flex-col lg:flex-row items-center  gap-4 justify-between">
 		<ul class="hidden lg:flex gap-6">
 			<li>Dhillon Bus Services</li>

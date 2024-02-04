@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
   /** internal deps */
   import { toast } from "./toastMessage";
   import { createEffect } from "$lib/utils";
@@ -156,4 +156,4 @@
   .info span {
     @apply bg-grad-2;
   }
-</style>
+</style> -->

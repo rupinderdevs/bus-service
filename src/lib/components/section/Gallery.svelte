@@ -9,38 +9,54 @@
 	import bus1 from '../../images/buses/dhillon-bus1.jpg';
 	import bus12 from '../../images/buses/dhillon-bus12.jpg';
 	import bus4 from '../../images/buses/dhillon-bus4.jpg';
+	import Heading from '../ui/Heading.svelte';
 </script>
 
-<section class="">
-	<h2 class="text-black text-xl lg:text-5l text-center">Featured Buses and Coach Models.</h2>
-	<!-- <p class="text-xs lg:text-m w-full md:w-9/12 mx-auto text-center">
-		Check some of the recent addition of buses in our fleet. We have all sorts of buses be it a 27
-		seater, 45 seater or 54 seater (AC/ Non AC)
-	</p> -->
-	<div class="container px-4 py-6 lg:py-24 mx-auto flex flex-wrap">
-		<div class="flex flex-wrap md:-m-2 -m-1">
-			<div class="flex flex-wrap w-full lg:w-1/2">
-				<div class="md:p-2 p-1 w-1/2">
-					<img alt="gallery" class="w-full object-cover h-full object-center block" src={bus14} />
+<section id="gallery" class="background">
+	<section class="px-4 lg:px-14 xl:px-18">
+		<!-- <h2 class="text-black text-xl lg:text-5l text-center">Featured Buses and Coach Models</h2> -->
+		<Heading title="Featured Buses and Coach Models" class="text-white" />
+		<div class="container px-4 pt-4 lg:pt-24 mx-auto flex flex-wrap">
+			<div class="flex flex-wrap md:-m-2 -m-1">
+				<div class="flex flex-wrap w-full lg:w-1/2">
+					<div class="md:p-2 p-1 w-1/2">
+						<img alt="gallery" class="w-full object-cover h-full object-center block" src={bus14} />
+					</div>
+					<div class="md:p-2 p-1 w-1/2">
+						<img alt="gallery" class="w-full object-cover h-full object-center block" src={bus1} />
+					</div>
+					<div class="md:p-2 p-1 w-full">
+						<img alt="gallery" class="w-full h-full object-cover object-center block" src={bus11} />
+					</div>
 				</div>
-				<div class="md:p-2 p-1 w-1/2">
-					<img alt="gallery" class="w-full object-cover h-full object-center block" src={bus1} />
-				</div>
-				<div class="md:p-2 p-1 w-full">
-					<img alt="gallery" class="w-full h-full object-cover object-center block" src={bus11} />
-				</div>
-			</div>
-			<div class="flex flex-wrap w-full lg:w-1/2">
-				<div class="md:p-2 p-1 w-full">
-					<img alt="gallery" class="w-full h-full object-cover object-center block" src={bus13} />
-				</div>
-				<div class="md:p-2 p-1 w-1/2">
-					<img alt="gallery" class="w-full object-cover h-full object-center block" src={bus4} />
-				</div>
-				<div class="md:p-2 p-1 w-1/2">
-					<img alt="gallery" class="w-full object-cover h-full object-center block" src={bus12} />
+				<div class="flex flex-wrap w-full lg:w-1/2">
+					<div class="md:p-2 p-1 w-full">
+						<img alt="gallery" class="w-full h-full object-cover object-center block" src={bus13} />
+					</div>
+					<div class="md:p-2 p-1 w-1/2">
+						<img alt="gallery" class="w-full object-cover h-full object-center block" src={bus4} />
+					</div>
+					<div class="md:p-2 p-1 w-1/2">
+						<img alt="gallery" class="w-full object-cover h-full object-center block" src={bus12} />
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </section>
+
+<style>
+	.background {
+		background-color: #05579B;
+		padding: 3rem 0;
+		color: #fff;
+		background-image: repeating-linear-gradient(
+			135deg,
+			#05579B 0,
+			#5688d2 2px,
+			transparent 0,
+			transparent 50%
+		);
+		background-size: 10px 10px;
+	}
+</style>

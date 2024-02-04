@@ -5,7 +5,7 @@
 
 <Breadcrumb crumbs={['About Us']} />
 
-<section class="flex gap-4 flex-col md:flex-row px-4 py-6 lg:px-20">
+<section class="flex gap-4 flex-col md:flex-row px-4 py-6 lg:px-14 xl:px-18">
 	<div
 		class="lg:flex-grow md:w-11/12 pr-4 gap-10 flex flex-col md:items-start md:text-left items-center text-center"
 	>

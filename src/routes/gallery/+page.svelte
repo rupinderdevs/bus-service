@@ -5,6 +5,6 @@ import Breadcrumb from "$lib/components/ui/Breadcrumb.svelte";
 
 <Breadcrumb crumbs={["Gallery"]} />
 
-<section class="px-4 py-6 lg:px-20">
+<section class="px-4 py-6 lg:px-14 xl:px-18">
 <Gallery/>
 </section>

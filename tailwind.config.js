@@ -3,6 +3,9 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
+			backgroundImage:{
+				basic:"url('images/nus-dhillon.png')"
+			},
 			colors: {
 				transparent: 'transparent',
 				current: 'currentColor',

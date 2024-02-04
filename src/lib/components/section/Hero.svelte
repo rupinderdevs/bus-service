@@ -10,12 +10,12 @@
 	};
 </script>
 
-<section class="text-black">
-	<div class="container mx-auto flex py-4 lg:py-24 flex-col-reverse md:flex-row items-center">
+<section class="px-4 lg:px-14 xl:px-18">
+	<div class="container mx-auto flex py-4 lg:py-14 xl:py-24 flex-col-reverse md:flex-row items-center">
 		<div
-			class="lg:flex-grow md:w-1/2 pr-4 gap-4 lg:gap-10 flex flex-col md:items-start md:text-left items-center text-center"
+			class="lg:flex-grow md:w-1/2 pr-4 gap-4 xl:gap-10 flex flex-col md:items-start md:text-left items-center text-center"
 		>
-			<h1 class="lg:text-4xl xl:text-5xl text-xl md:text-3xl font-semibold">
+			<h1 class="lg:text-3xl xl:text-5xl text-xl md:text-3xl font-semibold">
 				Welcome to <span class="text-primary font-bold">Dhillon Bus</span> - <br /> Your Journey Begins
 				Here!
 			</h1>
@@ -26,7 +26,7 @@
 			</p>
 			<Button text="Contact Us" classes="my-2" on:click={onClick} />
 		</div>
-		<div class="lg:max-w-xl lg:w-full md:w-1/2 py-2">
+		<div class="xl:max-w-xl xl:w-full md:w-1/2 py-2">
 			<img class="object-cover object-center rounded" alt="hero" src={bus2} />
 		</div>
 	</div>
