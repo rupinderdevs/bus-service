@@ -14,7 +14,7 @@ export const testimonials = [
         alt: 'Client',
         name: 'Rupinder Singh',
         description:
-            'Dhillon Bus is a well-known bus transport company that consistently delivers excellent service. Their commitment to passenger comfort and safety makes them a reliable choice for my travels. I highly recommend their services'
+            'Dhillon Bus, a renowned transport company, offers excellent service, ensuring passenger comfort and safety. Highly recommended.'
     },
 
     {
@@ -23,14 +23,14 @@ export const testimonials = [
         name: 'Harpreet Singh',
 
         description:
-            'My travel experience with Dhillon Bus was exceptional. Not only did they ensure that my grandparents were not fatigued during the journey, but they also played a crucial role in helping us reach our destination on time. The level of service and care provided by Dhillon Bus is truly commendable.'
+            `My exceptional travel experience with Dhillon Bus ensured my grandparents' well-being and timely arrival. Commendable service and care provided.`
     },
     {
         src: clientImage,
         alt: 'Client',
         name: 'Gaurav C',
         description:
-            "Travelling with Dhillon Bus is always a delight. Their services are not only affordable but also extremely convenient and satisfactory. It's one of the finest bus operating services, and I've had consistently awesome travel experiences with them. What sets them apart is the respect they show towards passengers, a quality rarely found in other travel services."
+            "Travelling with Dhillon Bus is a delight—affordable, convenient, and consistently satisfying. Their respect for passengers sets them apart in the industry"
     },
 
     {
@@ -39,7 +39,7 @@ export const testimonials = [
         name: 'Laljit Singh',
 
         description:
-            'Dhillon Bus is my go-to choice for transportation to different places. The affordability, convenience, and overall satisfaction I experience with them are unmatched. Their commitment to providing an excellent travel experience, along with genuine respect for passengers, make them stand out in the industry. I highly recommend Dhillon Bus for a hassle-free and enjoyable journey.'
+            'Best choice for transportation—affordable and convenient. Their commitment to an excellent travel experience and genuine respect for passengers make them stand out.'
     }
 ];
 

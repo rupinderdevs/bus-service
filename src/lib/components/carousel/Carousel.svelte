@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import Carousel from 'svelte-carousel';
 	import { browser } from '$app/environment';
+	import './style.css';
   
 	let arrows = false;
 	export let dots = true;

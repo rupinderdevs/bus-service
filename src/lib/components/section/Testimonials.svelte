@@ -5,17 +5,17 @@
 
 <section id="testimonials" class="py-20 px-4 lg:px-14 xl:px-18">
 	<div>
-		<Carousel autoplay={true}>
+		<Carousel autoplay={false}>
 			{#each testimonials as { src, description, name }}
 				<div class="flex w-full">
-					<div class="testimonial text-center mx-6">
+					<div class="testimonial text-center mx-6 mb-2 lg:mb-8">
 						<div
 							class="pic p-3 inline-block w-28 h-28 border-4 border-secondary rounded-full overflow-hidden shadow-lg mb-4"
 						>
 							<img {src} alt="Client" class="w-full h-full object-cover" />
 						</div>
 						<p
-							class="description min-h-80 p-4 text-s bg-primary-80 rounded-2xl shadow-lg border-b-4 border-secondary mb-6"
+							class="description h-fit xl:min-h-48 p-4 text-s bg-primary-80 rounded-2xl shadow-lg border-b-4 border-secondary mb-6"
 						>
 							{description}
 						</p>
