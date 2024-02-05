@@ -27,8 +27,8 @@
 			href: '/about'
 		},
 		{
-			name: 'Services',
-			href: '/services'
+			name: 'Why-us',
+			href: '/why-us'
 		},
 		{
 			name: 'Gallery',
@@ -36,7 +36,7 @@
 		},
 		{
 			name: 'Contact',
-			href: '/contact'
+			href: '/contact-us'
 		}
 	];
 	const genericHamburgerLine = `h-1 w-8 my-1 rounded-full bg-primary transition ease transform duration-300`;
@@ -50,7 +50,10 @@
 </script>
 
 <nav class="sticky w-full top-0 z-50 bg-white shadow-md">
-	<div bind:this={divRef} class="py-4 flex justify-between items-center px-6 lg:px-14 xl:px-18 gap-4 z-20">
+	<div
+		bind:this={divRef}
+		class="py-4 flex justify-between items-center px-6 lg:px-14 xl:px-18 gap-4 z-20"
+	>
 		<div class="w-6/12 md:5/12 xl:w-6/12">
 			<a href="/" class=" text-xl font-semibold tracking-wide uppercase">
 				<img src={logo} alt="Dhillon Bus" class="w-full xl:w-6/12" />

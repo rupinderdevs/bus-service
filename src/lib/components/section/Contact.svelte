@@ -1,6 +1,45 @@
 <script lang="ts">
 	// import { text } from '@sveltejs/kit';
 	import Button from '../ui/Button.svelte';
+	import { onMount } from 'svelte';
+	import emailjs from '@emailjs/browser';
+	import { goto } from '$app/navigation';
+
+	let isSubmitted = false;
+	let isLoading = false;
+
+	const sendEmail = async (e: any) => {
+		isLoading = true;
+
+		try {
+			const name = e.target.user_name.value.trim();
+			const email = e.target.user_email.value.trim();
+			const message = e.target.message.value.trim();
+
+			if (!name || !email || !message) {
+				console.log('Please fill in all fields.');
+				return;
+			}
+			const response = await emailjs.sendForm('service_rj2ydnf', 'template_c84wflo', e.target, {
+				publicKey: ''
+				// jR99cbpW5AHSGCXRe
+			});
+
+			console.log('SUCCESS!', response);
+			isSubmitted = true;
+			goto('/thank-you');
+		} catch (error: unknown) {
+			console.log('FAILED...', error.text);
+		} finally {
+			isLoading = false;
+		}
+	};
+
+	// Reset isSubmitted and isLoading when component is mounted
+	onMount(() => {
+		isSubmitted = false;
+		isLoading = false;
+	});
 </script>
 
 <section class="text-gray-90 relative px-4 lg:px-14 xl:px-18">
@@ -41,33 +80,39 @@
 			<!-- <p class="leading-relaxed mb-5 text-gray-600">
 				Post-ironic portland shabby chic echo park, banjo fashion axe
 			</p> -->
-			<div class="relative mb-4">
-				<label for="name" class="leading-7 text-sm text-gray-600">Name</label>
-				<input
-					type="text"
-					id="name"
-					name="name"
-					class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+			<form on:submit|preventDefault={sendEmail}>
+				<div class="relative mb-4">
+					<label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+					<input
+						type="text"
+						id="name"
+						name="user_name"
+						class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+					/>
+				</div>
+				<div class="relative mb-4">
+					<label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+					<input
+						type="email"
+						id="email"
+						name="user_email"
+						class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+					/>
+				</div>
+				<div class="relative mb-4">
+					<label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+					<textarea
+						id="message"
+						name="message"
+						class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+					></textarea>
+				</div>
+				<Button
+					text={isLoading ? 'Sending' : isSubmitted ? 'Thank you' : 'Send'}
+					classes="text-center justify-center w-full" disabled={true}
 				/>
-			</div>
-			<div class="relative mb-4">
-				<label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-				<input
-					type="email"
-					id="email"
-					name="email"
-					class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-				/>
-			</div>
-			<div class="relative mb-4">
-				<label for="message" class="leading-7 text-sm text-gray-600">Message</label>
-				<textarea
-					id="message"
-					name="message"
-					class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-				></textarea>
-			</div>
-			<Button text="Submit" classes="text-center justify-center" />
+			</form>
+
 			<!-- <p class="text-xs text-gray-500 mt-3">
 				Chicharrones blog helvetica normcore iceland tousled brook viral artisan.
 			</p> -->
