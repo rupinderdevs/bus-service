@@ -10,11 +10,21 @@
 	import Buses from '../icon/Buses.svelte';
 	import Professionals from '../icon/Professionals.svelte';
 	import Chevron from '../icon/Chevron.svelte';
+	import Facebook from '../icon/Facebook.svelte';
+	import Instagram from '../icon/Instagram.svelte';
 
-	
+	import Whatsapp from '../icon/Whatsapp.svelte';
 
-
-	export let name: 'Check' | 'Arrow' | 'Phone' | 'Location' | 'Email' | 'Experience' | 'Drivers' | 'Buses' | 'Professionals' | 'Chevron';
+	export let name:
+		| 'Check'
+		| 'Arrow'
+		| 'Phone'
+		| 'Location'
+		| 'Email'
+		| 'Chevron'
+		| 'Facebook'
+		| 'Instagram'
+		| 'Whatsapp';
 
 	const svgIconList: any = {
 		Check,
@@ -26,8 +36,10 @@
 		Drivers,
 		Professionals,
 		Buses,
-		Chevron
-
+		Chevron,
+		Facebook,
+		Instagram,
+		Whatsapp
 	};
 </script>
 
