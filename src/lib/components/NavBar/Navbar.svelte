@@ -27,7 +27,7 @@
 			href: '/about'
 		},
 		{
-			name: 'Why-us',
+			name: 'Why us',
 			href: '/why-us'
 		},
 		{

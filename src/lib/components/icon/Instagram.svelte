@@ -1,4 +1,4 @@
-<svg class={$$restProps.class} viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- <svg class={$$restProps.class} viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<mask
 		id="mask0_103_2535"
 		style="mask-type:alpha"
@@ -52,4 +52,17 @@
 			<stop offset="1" stop-color="#FBB040" />
 		</linearGradient>
 	</defs>
+</svg> -->
+
+<svg
+	fill="none"
+	stroke="currentColor"
+	stroke-linecap="round"
+	stroke-linejoin="round"
+	stroke-width="2"
+	class={$$restProps.class}
+	viewBox="0 0 24 24"
+>
+	<rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+	<path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
 </svg>
