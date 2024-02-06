@@ -4,7 +4,7 @@
 	import { page } from '$app/stores';
 
 	/** internal deps */
-	import logo from '../../images/dhillon-bus-logo.png';
+	import logo from '$lib/images/dhillon-bus-logo.png';
 	import Popper from '../ui/Popper.svelte';
 
 	/** props */
