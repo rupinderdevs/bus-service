@@ -14,7 +14,7 @@
 
 <section id="gallery" class="background">
 	<section class="px-4 lg:px-14 xl:px-18">
-		<Heading title="Featured Buses and Coach Models" class="text-white !pb-0" />
+		<Heading title="Discover Our Top-of-the-Line Buses" class="text-white !pb-0" />
 		<div class="container px-4 pt-4 lg:pt-20 mx-auto flex flex-wrap">
 			<div class="flex flex-wrap md:-m-2 -m-1">
 				<div class="flex flex-wrap w-full lg:w-1/2">

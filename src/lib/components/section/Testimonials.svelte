@@ -9,7 +9,7 @@
 
 	<div>
 		<Carousel autoplay={false}>
-			{#each testimonials as { src, description, name }}
+			{#each testimonials as { src, description }}
 				<div class="flex w-full">
 					<div class="testimonial text-center mx-6 mb-2 lg:mb-8">
 						<div
@@ -22,9 +22,9 @@
 						>
 							{description}
 						</p>
-						<h3 class="text-xl font-semibold mb-2">
+						<!-- <h3 class="text-xl font-semibold mb-2">
 							{name}
-						</h3>
+						</h3> -->
 						<span class="block text-gray-light">Passenger</span>
 					</div>
 				</div>

@@ -1,8 +1,5 @@
 <script lang="ts">
 	import { INSTAGRAM } from '$lib/data';
-	// import { FACEBOOK } from '$lib/data';
-
-	// import Button from "./ui/Button.svelte";
 	import SvgIcon from '../ui/SvgIcon.svelte';
 	import LOGO from '../../images/dhillon-bus-logo-white.png';
 
@@ -24,37 +21,22 @@
 			href: '/contact'
 		}
 	];
-	// const generalLinks = [
-	// 	{
-	// 		name: 'Why us',
-	// 		href: '/why-us'
-	// 	},
-	// 	{
-	// 		name: 'Contact',
-	// 		href: '/contact'
-	// 	},
-
-	// ];
 	const socialIcon = [
 		{
 			name: 'Instagram',
 			href: INSTAGRAM
 		},
 		{
-			name: 'Facebook',
-			href: '/'
-		},
-		{
 			name: 'Whatsapp',
-			href: 'https://wa.me/999990000'
+			href: 'https://wa.me/7696756295'
 		}
 	];
 
 	const contactInformation = [
-		{ value: 'damandhillon521@gmail.com', icon: 'Email' },
-		{ value: '+91 9876856295', icon: 'Phone' },
-		{ value: '+91 9915494639', icon: 'Phone' },
-		{ value: '+91 7696756295', icon: 'Phone' },
+		{ value: 'dhillonbus1@gmail.com', icon: 'Email', href: 'mailto:damandhillon521@gmail.com' },
+		{ value: '+91 9876856295', icon: 'Phone', href: 'tel:9876856295' },
+		{ value: '+91 9915494639', icon: 'Phone', href: 'tel:9915494639' },
+		{ value: '+91 7696756295', icon: 'Phone', href: 'tel:7696756295' },
 		{
 			value: 'Dhillon Bus Headquarters. Patran, Punjab',
 			icon: 'Location'
@@ -110,7 +92,7 @@
 		<div class="break-words lg:w-4/12">
 			<h4 class="text-base md:text-2xl font-semibold pb-4">Contact Information</h4>
 			<ul class="space-y-3">
-				{#each contactInformation as { value, icon }}
+				{#each contactInformation as { value, icon, href }}
 					<li class="flex items-start gap-4">
 						<div class="w-6">
 							<SvgIcon name={icon} class="w-6 h-6 stroke-primary " />
@@ -118,7 +100,7 @@
 						</div>
 
 						<div>
-							<span>{value}</span>
+							<a {href}>{value}</a>
 						</div>
 					</li>
 				{/each}
@@ -143,9 +125,9 @@
 		>
 
 		<span class="">
-			Designed by <a
+			Designed & Developed by <a
 				href="https://rupinderdev.netlify.app/"
-				class="text-orange ml-1"
+				class="text-secondary ml-1 hover:font-medium transition-all duration-500"
 				rel="noopener noreferrer"
 				target="_blank">Rupinder Singh</a
 			>
