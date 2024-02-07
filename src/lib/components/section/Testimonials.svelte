@@ -1,9 +1,12 @@
 <script lang="ts">
 	import { testimonials } from '$lib/data';
 	import Carousel from '../carousel/Carousel.svelte';
+	import Heading from '../ui/Heading.svelte';
 </script>
 
 <section id="testimonials" class="py-20 px-4 lg:px-14 xl:px-18">
+		<Heading title="What our Passenger says" />
+
 	<div>
 		<Carousel autoplay={false}>
 			{#each testimonials as { src, description, name }}
