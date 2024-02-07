@@ -14,9 +14,8 @@
 
 <section id="gallery" class="background">
 	<section class="px-4 lg:px-14 xl:px-18">
-		<!-- <h2 class="text-black text-xl lg:text-5l text-center">Featured Buses and Coach Models</h2> -->
-		<Heading title="Featured Buses and Coach Models" class="text-white" />
-		<div class="container px-4 pt-4 lg:pt-24 mx-auto flex flex-wrap">
+		<Heading title="Featured Buses and Coach Models" class="text-white !pb-0" />
+		<div class="container px-4 pt-4 lg:pt-20 mx-auto flex flex-wrap">
 			<div class="flex flex-wrap md:-m-2 -m-1">
 				<div class="flex flex-wrap w-full lg:w-1/2">
 					<div class="md:p-2 p-1 w-1/2">
@@ -47,12 +46,12 @@
 
 <style>
 	.background {
-		background-color: #05579B;
+		background-color: #05579b;
 		padding: 3rem 0;
 		color: #fff;
 		background-image: repeating-linear-gradient(
 			135deg,
-			#05579B 0,
+			#05579b 0,
 			#5688d2 2px,
 			transparent 0,
 			transparent 50%

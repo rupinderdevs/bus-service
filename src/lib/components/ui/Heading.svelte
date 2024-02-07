@@ -4,12 +4,19 @@
 </script>
 
 <h1
-	class={`heading white-heading relative z-9 text-black text-xl lg:text-5l text-center ${$$restProps.class}`}
+	class={`pb-4 text-black text-xl lg:text-5l text-center ${$$restProps.class}`}
 >
 	{title}
 </h1>
+<!-- <h2 class="text-black text-xl lg:text-5xl text-center pb-4 relative"> -->
+<!-- <h1
+	class={`relative heading white-heading z-9 text-black text-xl lg:text-5l text-center ${$$restProps.class}`}
+>
+	{title}
+	<span class="absolute bottom-0 left-0 w-1/2 h-1 bg-primary"></span>
+</h1> -->
 
-<style>
+<!-- <style>
 	.heading {
 		z-index: 999;
 	}
@@ -32,4 +39,4 @@
 		background-repeat: no-repeat;
 		background-position: center;
 	}
-</style>
+</style> -->

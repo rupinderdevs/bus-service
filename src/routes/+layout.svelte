@@ -9,9 +9,9 @@
 </script>
 
 <!-- <Topbar /> -->
-<!-- <Navbar /> -->
-<ComingSoon />
-<!-- <main class="max-w-[1920px] mx-auto">
+<Navbar />
+<!-- <ComingSoon /> -->
+<main class="max-w-[1920px] mx-auto">
 	<slot />
 </main>
-<Footer /> -->
+<Footer />
