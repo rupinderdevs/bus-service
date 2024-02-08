@@ -3,8 +3,9 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
-			backgroundImage:{
-				basic:"url('images/nus-dhillon.png')"
+			backgroundImage: {
+				basic: "url('images/nus-dhillon.png')",
+				map: "url('images/map.png')"
 			},
 			colors: {
 				transparent: 'transparent',

@@ -44,10 +44,10 @@ export const testimonials = [
 ];
 
 export const cards: {
-    category: string;
-    title: string;
-    description: string;
-    imageSrc: string;
+	category: string;
+	title: string;
+	description: string;
+	imageSrc: string;
 }[] = [
         {
             category: '',
