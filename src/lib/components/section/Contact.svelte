@@ -62,16 +62,16 @@
 
 			<div class="bg-primary-90 relative flex flex-wrap py-6 rounded shadow-md">
 				<div class=" px-6">
-					<h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-					<p class="mt-1">Patran, Punjab, India</p>
+					<h2 class="font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+					<p class="mt-1 text-xs sm:text-s">Patran, Punjab, India</p>
 				</div>
 				<div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
 					<h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-					<a href="mailto:damandhillon521@gmail.com" class="leading-relaxed">
+					<a href="mailto:damandhillon521@gmail.com" class="leading-relaxed text-xs sm:text-s">
 						damandhillon521@gmail.com</a
 					>
 					<h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-					<a href="tel:9876856295" class="leading-relaxed">+91 98768 56295</a>
+					<a href="tel:9876856295" class="leading-relaxed text-xs sm:text-s">+91 98768 56295</a>
 				</div>
 			</div>
 		</div>
@@ -109,7 +109,8 @@
 				</div>
 				<Button
 					text={isLoading ? 'Sending' : isSubmitted ? 'Thank you' : 'Send'}
-					classes="text-center justify-center w-full" disabled={true}
+					classes="text-center justify-center w-full"
+					disabled={true}
 				/>
 			</form>
 

@@ -44,36 +44,36 @@ export const testimonials = [
 ];
 
 export const cards: {
-    category: string;
-    title: string;
-    description: string;
-    imageSrc: string;
+	category: string;
+	title: string;
+	description: string;
+	imageSrc: string;
 }[] = [
-        {
-            category: 'Category',
-            title: 'Tourist Services',
-            description:
-                'Discover the beauty of every destination with our specialized tourist services. Enjoy panoramic views, comfortable seating, and a curated travel experience that caters to the wanderlust in you.',
-            imageSrc: bus15
-        },
-        {
-            category: 'Category',
-            title: 'Local Bus Routes:',
-            description: `Navigate your city effortlessly with Dhillon Bus extensive local bus routes.Whether you're going to work every day or running a quick errand on the weekend, our buses are here to make your city travel comfortable.`,
-            imageSrc: bus7
-        },
-        {
-            category: 'Category',
-            title: 'Comfortable Fleet',
-            description:
-                'Travel in style with our modern and well-maintained fleet of buses. From luxury coaches to efficient shuttles, we have a variety of options to cater to your comfort preferences.',
-            imageSrc: bus11
-        },
-        {
-            category: 'Category',
-            title: 'Cost-Effective',
-            description:
-                'We Provide budget-friendly bus rental services, offering competitive pricing. Our fleet is meticulously constructed with cutting-edge technology, ensuring the highest level of comfort for our passengers..',
-            imageSrc: bus4
-        }
-    ];
+	{
+		category: 'Service',
+		title: 'Tourist Services',
+		description:
+			'Discover the beauty of every destination with our specialized tourist services. Enjoy panoramic views, comfortable seating, and a curated travel experience that caters to the wanderlust in you.',
+		imageSrc: bus15
+	},
+	{
+		category: 'Service',
+		title: 'Local Bus Routes:',
+		description: `Navigate your city effortlessly with Dhillon Bus extensive local bus routes.Whether you're going to work every day or running a quick errand on the weekend, our buses are here to make your city travel comfortable.`,
+		imageSrc: bus7
+	},
+	{
+		category: 'Service',
+		title: 'Comfortable Fleet',
+		description:
+			'Travel in style with our modern and well-maintained fleet of buses. From luxury coaches to efficient shuttles, we have a variety of options to cater to your comfort preferences.',
+		imageSrc: bus11
+	},
+	{
+		category: 'Service',
+		title: 'Cost-Effective',
+		description:
+			'We Provide budget-friendly bus rental services, offering competitive pricing. Our fleet is meticulously constructed with cutting-edge technology, ensuring the highest level of comfort for our passengers..',
+		imageSrc: bus4
+	}
+];

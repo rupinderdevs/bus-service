@@ -7,15 +7,17 @@
 	<div class="about text-black">
 		<div class="mx-auto">
 			<div class="flex flex-col md:flex-row mx-4 lg:mx-16 xl:mx-32">
-				<div class="w-full md:w-7/12 about-sec bg-gray-90 text-white p-4 pb-4 lg:p-10 xl:p-16 xl:pb-0">
+				<div
+					class="w-full md:w-7/12 about-sec bg-gray-90 text-white p-4 pb-4 lg:p-10 xl:p-16 xl:pb-0"
+				>
 					<h1 class="heading text-left text-3xl mb-4">About Us</h1>
-					<p class="text-left mb-4">
+					<p class="text-left mb-4 text-s">
 						Dhillon Bus stands as a prominent force in the bus rental industry in Punjab. Our
 						commitment to enhancing the travel experience is evident through the continuous upgrades
 						to our extensive fleet, ensuring our customers enjoy a journey marked by comfort and
 						convenience.
 					</p>
-					<p class="text-left">
+					<p class="text-left text-s">
 						We takes pride in being the top choice for both tourists and meticulous journey
 						planners. Our buses are meticulously crafted, incorporating cutting-edge technology to
 						provide the highest level of comfort to our passengers. Choose us for a journey that
