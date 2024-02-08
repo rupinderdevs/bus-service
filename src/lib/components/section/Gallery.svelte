@@ -3,12 +3,12 @@
 
 	// import bus1 from '../../images/bus1.jpg';
 	// import bus2 from '../../images/bus2.jpg';
-	import bus14 from '../../images/buses/dhillon-bus14.jpg';
-	import bus11 from '../../images/buses/dhillon-bus11.jpg';
-	import bus13 from '../../images/buses/dhillon-bus13.jpg';
-	import bus1 from '../../images/buses/dhillon-bus1.jpg';
-	import bus12 from '../../images/buses/dhillon-bus12.jpg';
-	import bus4 from '../../images/buses/dhillon-bus4.jpg';
+	import bus14 from '../../images/buses/dhillon-bus14.webp';
+	import bus11 from '../../images/buses/dhillon-bus11.webp';
+	import bus13 from '../../images/buses/dhillon-bus13.webp';
+	import bus1 from '../../images/buses/dhillon-bus1.webp';
+	import bus12 from '../../images/buses/dhillon-bus12.webp';
+	import bus4 from '../../images/buses/dhillon-bus4.webp';
 	import Heading from '../ui/Heading.svelte';
 </script>
 

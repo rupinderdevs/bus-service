@@ -1,7 +1,7 @@
 <script>
 	import Services from '$lib/components/section/Services.svelte';
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
-	import bus1 from '../../lib/images/buses/dhillon-bus15.jpg';
+	import bus1 from '../../lib/images/buses/dhillon-bus15.webp';
 	import SvgIcon from '$lib/components/ui/SvgIcon.svelte';
 </script>
 

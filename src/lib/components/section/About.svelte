@@ -1,6 +1,6 @@
 <script lang="ts">
 	// import Button from '../ui/Button.svelte';
-	import aboutus from '$lib/images/buses/dhillon-bus15.jpg';
+	import aboutus from '$lib/images/buses/dhillon-bus15.webp';
 </script>
 
 <section id="about" class="">
@@ -17,7 +17,7 @@
 						to our extensive fleet, ensuring our customers enjoy a journey marked by comfort and
 						convenience.
 					</p>
-					<p class="text-left text-s">
+					<p class="text-left mb-2 text-s">
 						We takes pride in being the top choice for both tourists and meticulous journey
 						planners. Our buses are meticulously crafted, incorporating cutting-edge technology to
 						provide the highest level of comfort to our passengers. Choose us for a journey that
@@ -66,7 +66,7 @@
 	}
 	.cont-us {
 		background: linear-gradient(rgba(5, 87, 155, 0.9), rgba(217, 162, 27, 0.9)),
-			url('../../images/buses/dhillon-bus13.jpg');
+			url('../../images/buses/dhillon-bus13.webp');
 		width: 100%;
 		width: 100%;
 		float: left;

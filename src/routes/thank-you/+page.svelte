@@ -1,6 +1,6 @@
 <script>
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
-	import bus1 from '../../lib/images/buses/dhillon-bus15.jpg';
+	import bus1 from '../../lib/images/buses/dhillon-bus15.webp';
 </script>
 
 <!-- <Breadcrumb crumbs={['Thank You']} /> -->
