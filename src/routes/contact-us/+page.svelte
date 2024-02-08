@@ -37,60 +37,14 @@
 
 <Breadcrumb crumbs={['Contact Us']} />
 
-<!-- <section class="px-4 py-6 lg:py-20 lg:px-14 xl:px-18">
-	<div class="flex gap-10 flex-col lg:flex-row">
-		<div class="w-full lg:w-7/12"><img src={bus} alt="Bus" /></div>
-		<form class="border border-primary-90 rounded-md p-4" on:submit|preventDefault={sendEmail}>
-			<span>Name</span>
-			<input type="text" name="user_name" />
-
-			<span>Email</span>
-			<input type="email" name="user_email" />
-			<span>Phone No.</span>
-			<input type="number" name="user_phone" />
-			<span>Address</span>
-			<input type="text" name="user_address" />
-
-			<span>Message</span>
-			<textarea name="message"></textarea>
-
-			<Button
-				text={isLoading ? 'Sending' : isSubmitted ? 'Thank you' : 'Send'}
-				classes="text-center justify-center w-full"
-				disabled={true}
-			/>
-		</form>
-	</div>
-</section> -->
-
 <div class="px-4 py-6 lg:py-20 lg:px-14 xl:px-18">
 	<section>
-		<div class="flex flex-wrap">
-			<div class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
-				<form class="border border-primary-90 rounded-md p-4" on:submit|preventDefault={sendEmail}>
-					<span>Name</span>
-					<input type="text" name="user_name" />
+		<!-- <h2>Let's connect</h2> -->
 
-					<span>Email</span>
-					<input type="email" name="user_email" />
-					<span>Phone No.</span>
-					<input type="number" name="user_phone" />
-					<span>Address</span>
-					<input type="text" name="user_address" />
-
-					<span>Message</span>
-					<textarea name="message"></textarea>
-
-					<Button
-						text={isLoading ? 'Sending' : isSubmitted ? 'Thank you' : 'Send'}
-						classes="text-center justify-center w-full"
-						disabled={true}
-					/>
-				</form>
-			</div>
-			<div class="border w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+		<div class="flex flex-wrap items-center">
+			<div class="w-full bg-secondary/20 py-6 lg:py-20 rounded-md lg:w-7/12">
 				<div class="flex justify-center flex-wrap">
-					<div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
+					<div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12">
 						<div class="flex items-start">
 							<div class="shrink-0">
 								<div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
@@ -117,7 +71,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
+					<div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12">
 						<div class="flex items-start">
 							<div class="shrink-0">
 								<div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
@@ -144,7 +98,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
+					<div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12">
 						<div class="align-start flex">
 							<div class="shrink-0">
 								<div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
@@ -171,7 +125,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
+					<div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12">
 						<div class="align-start flex">
 							<div class="shrink-0">
 								<div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
@@ -199,6 +153,31 @@
 						</div>
 					</div>
 				</div>
+			</div>
+
+			<!-- form
+			 -->
+			<div class="w-full shadow-xl py-2 lg:mb-0 lg:w-5/12">
+				<form class="border-primary rounded-md p-4" on:submit|preventDefault={sendEmail}>
+					<span>Name</span>
+					<input type="text" name="user_name" />
+
+					<span>Email</span>
+					<input type="email" name="user_email" />
+					<span>Phone No.</span>
+					<input type="number" name="user_phone" />
+					<span>Address</span>
+					<input type="text" name="user_address" />
+
+					<span>Message</span>
+					<textarea name="message"></textarea>
+
+					<Button
+						text={isLoading ? 'Sending' : isSubmitted ? 'Thank you' : 'Send'}
+						classes="text-center justify-center w-full"
+						disabled={true}
+					/>
+				</form>
 			</div>
 		</div>
 	</section>
