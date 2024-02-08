@@ -1,10 +1,10 @@
 import clientImage from '$lib/images/feedback.png';
-// import bus14 from '$lib/images/buses/dhillon-bus14.jpg';
-import bus11 from '$lib/images/buses/dhillon-bus11.jpg';
-// import bus13 from '$lib/images/buses/dhillon-bus13.jpg';
-import bus7 from '$lib/images/buses/dhillon-bus7.jpg';
-import bus15 from '$lib/images/buses/dhillon-bus15.jpg';
-import bus4 from '$lib/images/buses/dhillon-bus4.jpg';
+// import bus14 from '$lib/images/buses/dhillon-bus14.webp';
+import bus11 from '$lib/images/buses/dhillon-bus11.webp';
+// import bus13 from '$lib/images/buses/dhillon-bus13.webp';
+import bus7 from '$lib/images/buses/dhillon-bus7.webp';
+import bus15 from '$lib/images/buses/dhillon-bus15.webp';
+import bus4 from '$lib/images/buses/dhillon-bus4.webp';
 
 export const INSTAGRAM = 'https://www.instagram.com/dhillonbus42/';
 

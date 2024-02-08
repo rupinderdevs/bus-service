@@ -1,6 +1,6 @@
 <script>
 	import { goto } from '$app/navigation';
-	import bus2 from '../../images/buses/dhillon-bus14.jpg';
+	import bus2 from '$lib/images/buses/dhillon-bus14.webp';
 	import Button from '../ui/Button.svelte';
 
 	const onClick = () => {
@@ -9,7 +9,7 @@
 </script>
 
 <section class="px-4 lg:px-14 xl:px-18 bg-map bg-no-repeat bg-unset md:bg-right">
-	<div class="container mx-auto flex py-4 lg:py-14 flex-col-reverse md:flex-row items-center">
+	<div class="flex py-4 lg:py-14 flex-col-reverse md:flex-row items-center">
 		<div
 			class="lg:flex-grow md:w-1/2 pr-4 gap-4 xl:gap-10 flex flex-col md:items-start text-justify md:text-left"
 		>

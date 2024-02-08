@@ -3,7 +3,7 @@
 	import emailjs from '@emailjs/browser';
 	import { goto } from '$app/navigation';
 	import Button from '$lib/components/ui/Button.svelte';
-	import bus from '$lib/images/buses/dhillon-bus15.jpg';
+	import bus from '$lib/images/buses/dhillon-bus15.webp';
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
 
 	let isSubmitted = false;

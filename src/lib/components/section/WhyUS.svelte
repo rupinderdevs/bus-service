@@ -1,5 +1,5 @@
 <script>
-	import bus15 from '$lib/images/buses/dhillon-bus12.jpg';
+	import bus15 from '$lib/images/buses/dhillon-bus12.webp';
 
 	const busServicePoints = [
 		{
