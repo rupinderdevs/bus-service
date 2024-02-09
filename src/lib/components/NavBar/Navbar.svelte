@@ -112,10 +112,10 @@
 			<!-- Drawer component -->
 			{#if open}
 				<div
-					class="lg:hidden fixed inset-y-0 right-0 z-50 w-full bg-primary-80/95 shadow-lg transform transition-transform ease-in-out duration-300"
+					class="lg:hidden fixed top-32 right-0 z-50 w-full bg-primary-80/95 shadow-lg transform transition-transform ease-in-out duration-300"
 					style="transform: {open ? 'translateX(0)' : 'translateX(100%)'};"
 				>
-					<button
+					<!-- <button
 						class="flex flex-col h-12 w-14 float-right rounded justify-end items-center group"
 						on:click={openDrawer}
 					>
@@ -130,7 +130,7 @@
 								open ? '-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100' : ''
 							}`}
 						/>
-					</button>
+					</button> -->
 					<div class="drawer-content flex flex-col p-8 space-y-6">
 						{#each navLinks as { name, href }}
 							<a
