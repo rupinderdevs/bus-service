@@ -10,8 +10,8 @@
 	/** funcs */
 	/** lifecycles */
 	/** react-ibles */
-	$: niceCrumbs = crumbs.map((crumb) => crumb.replaceAll('-', ' '));
-	$: heading = niceCrumbs.at(-1);
+	$: brdCrumbs = crumbs.map((crumb) => crumb.replaceAll('-', ' '));
+	$: heading = brdCrumbs.at(-1);
 </script>
 
 <section
@@ -20,11 +20,11 @@
 	<h2 class="text-l md:text-4xl font-medium capitalize">{heading}</h2>
 	<div class="text-s md:text-m flex">
 		<span class="pr-2 font-medium">Home </span>
-		<SvgIcon name="Chevron" class="w-5 -rotate-90" />
-		{#each niceCrumbs as name, index}
-			<span class="{index + 1 === niceCrumbs.length && 'font-medium'} px-4 capitalize">{name}</span>
-			{#if index !== niceCrumbs.length - 1}
-				<SvgIcon name="Arrow" class="w-5 -rotate-90" />{/if}
+		<SvgIcon name="Chevron" class="w-3 -rotate-90" />
+		{#each brdCrumbs as name, index}
+			<span class="{index + 1 === brdCrumbs.length && 'font-medium'} px-4 capitalize">{name}</span>
+			{#if index !== brdCrumbs.length - 1}
+				<SvgIcon name="Arrow" class="w-3 -rotate-90" />{/if}
 		{/each}
 	</div>
 </section>
