@@ -65,9 +65,9 @@
 								</div>
 							</div>
 							<div class="ml-6 grow">
-								<p class="mb-2 font-bold">Technical support</p>
-								<p class="text-black">support@example.com</p>
-								<p class="text-black">+91 289-9872-882</p>
+								<p class="mb-2 font-bold">Help Desk</p>
+								<!-- <p class="text-black">@example.com</p> -->
+								<p class="text-black">+91 9876856295</p>
 							</div>
 						</div>
 					</div>
@@ -93,8 +93,8 @@
 							</div>
 							<div class="ml-6 grow">
 								<p class="mb-2 font-bold">Bus Enquiry</p>
-								<p class="text-black">daman@gmail.com</p>
-								<p class="text-black">+91 98768 56295</p>
+								<p class="text-black">damandhillon521@gmail.com</p>
+								<p class="text-black">+91 99154 94639</p>
 							</div>
 						</div>
 					</div>
@@ -120,8 +120,8 @@
 							</div>
 							<div class="ml-6 grow">
 								<p class="mb-2 font-bold">Any Question</p>
-								<p class="text-black">test@example.com</p>
-								<p class="text-black">+91 99154 94639</p>
+								<p class="text-black">damandhillon521@gmail.com</p>
+								<p class="text-black">+91 76967 56295</p>
 							</div>
 						</div>
 					</div>
@@ -147,7 +147,7 @@
 							</div>
 							<div class="ml-6 grow">
 								<p class="mb-2 font-bold">Contact</p>
-								<p class="text-black">dhillon@example.com</p>
+								<!-- <p class="text-black">dhillon@example.com</p> -->
 								<p class="text-black">+91 99154 94639</p>
 							</div>
 						</div>

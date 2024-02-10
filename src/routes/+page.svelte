@@ -4,7 +4,6 @@
 	import Services from '$lib/components/section/Services.svelte';
 	import About from '$lib/components/section/About.svelte';
 	import Contact from '$lib/components/section/Contact.svelte';
-	// import Statistics from '$lib/components/section/Statistics.svelte';
 	import Testimonials from '$lib/components/section/Testimonials.svelte';
 </script>
 
@@ -18,7 +17,6 @@
 	<About />
 	<Services />
 	<Gallery />
-	<!-- <Statistics /> -->
 	<Testimonials />
 	<Contact />
 </section>

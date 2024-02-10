@@ -59,7 +59,7 @@
 
 <header class="shadow-md w-full sticky top-0 bg-white z-[9999] py-4 lg:py-2 px-6 lg:px-14 xl:px-18">
 	<div class="w-full flex justify-between items-center">
-		<div class="w-6/12 md:5/12 xl:w-6/12">
+		<div class="md:5/12 xl:w-6/12">
 			<a href="/" class=" text-xl font-semibold tracking-wide uppercase">
 				<img src={logo} alt="Dhillon Bus" class="w-full xl:w-6/12" />
 			</a>

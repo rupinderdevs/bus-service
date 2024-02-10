@@ -18,7 +18,7 @@
 		},
 		{
 			name: 'Contact',
-			href: '/contact'
+			href: '/contact-us'
 		}
 	];
 	const socialIcon = [

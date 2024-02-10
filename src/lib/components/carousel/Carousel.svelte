@@ -5,11 +5,12 @@
 	import './style.css';
 	import SvgIcon from '../ui/SvgIcon.svelte';
 
-	let arrows = false;
+	export let arrows = false;
 	export let dots = true;
 	export let autoplay = false;
 	export let infinite = true;
 	export let autoplayDuration = 2000;
+	
 
 	let particlesToShow = 1;
 
