@@ -18,7 +18,7 @@
 			affordability, they have established themselves as a trusted choice for travelers.
 		</p>
 		<ul class="list-none space-y-2">
-			<li class=""><strong>Founded by:</strong> ....</li>
+			<li class=""><strong>Founded by:</strong> Dhillon</li>
 			<li class=""><strong>Address:</strong> Patran, Punjab, India</li>
 			<li class="">
 				<strong>Deals In:</strong> Semi-deluxe, Deluxe and AC/Non AC Buses rental services for tours,
