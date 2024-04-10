@@ -9,10 +9,10 @@
 	import './styles.css';
 </script>
 
-<!-- <Topbar />
+<Topbar />
 <Navbar />
 <main class="max-w-[1920px] mx-auto">
 	<slot />
 </main>
-<Footer /> -->
-<Maintain />
+<Footer />
+<!-- <Maintain /> -->
